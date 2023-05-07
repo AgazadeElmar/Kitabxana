@@ -13,10 +13,10 @@ public class Kitablar {
         this.bookName = bookName;
     }
     public static void addBookName(){
-        Kitablar qwe=new Kitablar("Bassiz atli");
-        Kitablar.listKitab.add(qwe);
-        Kitablar asd=new Kitablar("Dusunce");
-        Kitablar.listKitab.add(asd);
+        Kitablar bassizAtli=new Kitablar("Bassiz atli");
+        Kitablar.listKitab.add(bassizAtli);
+        Kitablar dusunce=new Kitablar("Dusunce");
+        Kitablar.listKitab.add(dusunce);
 
 
 
