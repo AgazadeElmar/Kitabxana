@@ -22,16 +22,7 @@ public class Kitablar {
 
     }
 
-    public static void main(String[] args) {
-        addBookName();
-        Scanner sc=new Scanner(System.in);
-        for (int x=0;x<listKitab.size();x++) {
-            System.out.println(x + "-" + listKitab.get(x));
-        }
-        System.out.print("Secmek istediyiniz kitabin nomresini daxil edin");
-        int x=sc.nextInt();
 
-    }
 
     public static void kitabiGoturdu(){
 
